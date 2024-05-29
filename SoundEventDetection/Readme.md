@@ -6,7 +6,8 @@
 ## Dataset
 - Audi files consists of labeled and unlabeled .ogg files
 - Number of labels: 189
-
+- unlabeled audio files: 8_444
+- labeled audio files: 24_459
 ## [EDA]()
 
 ## Approach
