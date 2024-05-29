@@ -8,7 +8,7 @@
 - Number of labels: 189
 - unlabeled audio files: 8_444
 - labeled audio files: 24_459
-## [EDA]()
+## [EDA](https://github.com/Sean-Toroghi/portfolio/blob/main/SoundEventDetection/EDA.ipynb)
 
 ## Approach
 1. Supervised sound event detection (multi-label classification)
