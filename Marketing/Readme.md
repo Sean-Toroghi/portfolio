@@ -9,7 +9,7 @@ Areas:
 
 Datasets are from the following book:
 
-Data Science for Marketing Analytics
+Data Science for Marketing Analytics (2023) 
 by Mirza Rahim Baig, Gururajan Govindan, Vishwesh Ravi Shrimali
 
 __Note__: While some of the methods are similar to the ones that are suggested, I implement my own coding approach/style.
