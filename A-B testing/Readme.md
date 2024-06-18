@@ -25,7 +25,7 @@ A good hypothesis needs to include the following
 - result of applying the change
 - reason this outcome is desirable
 
-A template for hypothesis: __We bevieve__ (the proposed solution (the variable we want to evaluate)); __will then__ (the result of introducing the change (what does sucess mean)), __because__ (evidence for the prediction). 
+A template for hypothesis: __We believe__ (the proposed solution (the variable we want to evaluate)); __will then__ (the result of introducing the change (what does success mean)), __because__ (evidence for the prediction). 
 
 __Example__: _I/We believe_ adding this summary about A/B testing, will increase the chance of getting a position as a data scientist, because the hiring team could observe my knowledge and capability to run a successful A/B test.
 
@@ -33,3 +33,8 @@ __Example__: _I/We believe_ adding this summary about A/B testing, will increase
 
 ## Measure the impact of an experiment
 
+A metric for A/B testing demonstrates the impact of the change, and needs to have the following characteristics:
+- easy to understand (could be easily interpreted)
+- simple to compute (not being a composite metric)
+- actionable (the result ignites taking an action)
+- reliable to produce (not being too complex to implement)
