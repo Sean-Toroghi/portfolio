@@ -100,8 +100,24 @@ The following factors effect the sample size:
 - baseline conversion rat: is the expected value for the control variant for the success metric. 
 - power of the test: which represents the likelihood that your A/B test will detect an effect if one exists. Higher power translates to a decreased risk of faulty test results. As the size of sample increases, power of test also increases. In reverse, if we want to have a test with higher power, we need to increase the size of sample.
 
+---
 
-  
+## Different types of A/B testing
+
+### Superiority A/B test
+
+When the goal of the test is to show a change improves the status quo (control group), we employ superiority A/B test. 
+
+### Non-inferiority A/B Test
+
+When the goal of the test is to show a change does not have a meaningful impact, or the impact is slightly inferior, we perform non-inferiority A/B Test. The null hypothesis in this test states no meaningful difference between the test and control variants. Some use cases of this test are:
+- examin change in the model architecture to produce different results under the hood does not effect user experience.
+- migration of a new engineering sustem.
+- making changes that reduce tech debt and wanting to ensure the experience for the user has not degraded.
+- making small changes, and want to make sure it does not have a negative effect on custoemr experience.
+- gauging if a cheaper-to-implement solution from an engineering perspective can perform almost as well or not meaningfully worse than the current control implementation.
+
+
 
 
 
