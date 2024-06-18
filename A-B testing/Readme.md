@@ -120,4 +120,36 @@ When the goal of the test is to show a change does not have a meaningful impact,
 
 
 
+### Equivalence A/B Test
+
+When the goal is to show two versions are the same or there is no meaningfull differences. The main difference between equivalence and non-infererior A/B Tests is, in non-inferior A/B Test we want to show version A is as good as version B. Even if A be slightly worse than B, still the test has a positive outcome. In equivalence test, A need to be the same as B to have a positive outcome from the test.
+
+---
+
+## Test duration
+
+There are several factors affecting the duration of a test:
+- evalute the impact of a change on metrics such as churn
+- learn the relationship between short-term and long-term business metrics
+- understand the impact of multiple changes, collectively
+- observe the trend from an initial test, whether the maintians, improves, or degrades (given the initial results)
+
+### Degradation holdbacks
+
+IF the goal of a test is to evaluate a feature's impact on a long run, we employ degradation holdback method. Here most users will receive the feature. At the same time, the feature is unavailable for a small percentage (holdback group). Another application is to evaluate which combination of features to remove from the evaluation. Another use case is to evalute the impact of a featurn on a certain key business metrics that take longer to observe.
+
+Note: we should not choose a degradation holdback A/B test if your feature is already available for your entire user base and removing the feature for existing users to create the holdback group results in disorientation with the product experience.
+
+### Long-term cumulative holdbacks
+
+A long-term cumulative holdback is similar to a long-term degradation holdback, but instead of selecting a feature to remove from the experience, the goal is to determine the impact of the cumulative product changes from a given time period—such as quarterly.
+
+This test design involves holding back a small portion of users that will not get exposed to any product changes made over a given period of time with the intent of observing the impact of all successful changes in aggregate.
+
+One __drawback__ of this type of test, is its cost. Maintaining multiple versions of a product or feature, especially on a longer timeline, has a cost.
+
+
+![image](https://github.com/Sean-Toroghi/portfolio/assets/50586266/f572841d-1f69-48e5-b6ea-d3d6d56687a7)
+
+
 
