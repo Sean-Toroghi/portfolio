@@ -11,3 +11,17 @@ In this depository, I provide some sample of running A/B test on variety of topi
 6. determine size of sample (power analysis) and length of the test
 7. collect data (run the test)
 8. run an A/A test (dummy test) to identify any systematic bias
+
+References:
+- Practical A/B Testing 92023) by Leemay Nassery
+- Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing (2020) by Ron Kohavi, Diane Tang, Ya Xu
+---
+
+## Form a goal and define hypothesis
+
+A good hypothesis needs to include the following
+- the outcome we are predicting to happen by applying the experiment/change to a subset of users
+- result of applying the change
+- reason this outcome is desirable
+
+A template for hypothesis: __We bevieve__ <the proposed solution (the variable we want to evaluate)> __will then__ <the result of introducing the change (what does sucess mean)> __because__ <evidence for the prediction>
