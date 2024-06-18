@@ -24,4 +24,4 @@ A good hypothesis needs to include the following
 - result of applying the change
 - reason this outcome is desirable
 
-A template for hypothesis: __We bevieve__ <the proposed solution (the variable we want to evaluate)> __will then__ <the result of introducing the change (what does sucess mean)> __because__ <evidence for the prediction>
+A template for hypothesis: __We bevieve__ <the proposed solution (the variable we want to evaluate)>; __will then__ <the result of introducing the change (what does sucess mean)>, __because__ <evidence for the prediction>. 
