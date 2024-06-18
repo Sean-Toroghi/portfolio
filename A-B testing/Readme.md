@@ -75,6 +75,13 @@ Variant (treatment or segment) is a subset of population we have access to for r
 - Test variant is a sample that recieves a different experiment than what we plan to investigate
 - Control variant is a sample that recieves the existing or unchanged functionality
 
-Note: any user in the sample requires to satisfy a pre-defined list of eligibility criteria. For example run a test on generating an ads leading to increase subscription, one eligibility criteria is the user need to be a new user without any existing account.
+Note: any user in the sample requires to satisfy a pre-defined list of eligibility criteria. For example run a test on generating an ads leading to increase subscription, one eligibility criteria is the user need to be a new user without any existing account and finishes the registration.
+
+__Randomize user allocation__
+
+To form a valid result, we need to allocate users randomly to each variant. It decreases statistical bias, as each user has the same chance of being subject to the experiment. Also each variant will have an evently distributed users with co-variates attributes, such as location and demographic.
+
+
+
 
 
