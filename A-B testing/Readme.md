@@ -31,10 +31,50 @@ __Example__: _I/We believe_ adding this summary about A/B testing, will increase
 
 ---
 
-## Measure the impact of an experiment
+## Measure the impact of an experiment: define a metric
 
 A metric for A/B testing demonstrates the impact of the change, and needs to have the following characteristics:
 - easy to understand (could be easily interpreted)
 - simple to compute (not being a composite metric)
 - actionable (the result ignites taking an action)
 - reliable to produce (not being too complex to implement)
+
+__Types of metrics__
+
+- Success metric is also reffered to as a _primary metric_. This is the metric shows if the intended change in the hypothesis statement succeed. Example: if we introduce a new feature to increase vew of a website, increase the average number of viewers over a period of time could be a success metric.
+- Guardrail metric/s also called secondary metric/s: are defined to make sure a change does not bring an unintended effect (positive or negative, but perhaps more so a negative). Example: adding this summary to the porfolio, will increase the change of getting a position other than data scientist!
+
+__Common guardrail metrics__
+- user retention
+- revenue
+- click-trough-rate (CTR)
+- return visits
+- weekly active users
+- monthly active users
+- daily active users
+- pageviews
+- web performance speed
+
+  __Trade-off between metrics__
+
+  In case we have multiple success and secondary metrics, they may conflict with each other. For example, if I spend too much time making this summary a comprehensive one that attracts more viewers, I will cut the time I spend developing ML models. Another example is introducing a fansy feature, may increase the implementation cost that leads to decrease in revenue. 
+ 
+__Establish a Baseline__
+
+It is always a good idea to start with a baseline. In case of A/B testing, we could establish a baseline for the metric, by recording the reuslts before implementing a change. 
+
+__Proxity metrics__
+
+In case the ideal metrics are not measurable or difficult to measure, or are not trustworty with the data inhand, we employ proxy metrics. 
+
+---
+
+## Define test and control variants
+
+Variant (treatment or segment) is a subset of population we have access to for running our test on and collect information about. Sample is chosen randomly from the target population.
+- Test variant is a sample that recieves a different experiment than what we plan to investigate
+- Control variant is a sample that recieves the existing or unchanged functionality
+
+Note: any user in the sample requires to satisfy a pre-defined list of eligibility criteria. For example run a test on generating an ads leading to increase subscription, one eligibility criteria is the user need to be a new user without any existing account.
+
+
