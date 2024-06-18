@@ -16,6 +16,7 @@ References:
 - Practical A/B Testing 92023) by Leemay Nassery
 - Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing (2020) by Ron Kohavi, Diane Tang, Ya Xu
 ---
+# A/B testing foundation
 
 ## Form a goal and define hypothesis
 
@@ -24,4 +25,11 @@ A good hypothesis needs to include the following
 - result of applying the change
 - reason this outcome is desirable
 
-A template for hypothesis: __We bevieve__ <the proposed solution (the variable we want to evaluate)>; __will then__ <the result of introducing the change (what does sucess mean)>, __because__ <evidence for the prediction>. 
+A template for hypothesis: __We bevieve__ (the proposed solution (the variable we want to evaluate)); __will then__ (the result of introducing the change (what does sucess mean)), __because__ (evidence for the prediction). 
+
+__Example__: _I/We believe_ adding this summary about A/B testing, will increase the chance of getting a position as a data scientist, because the hiring team could observe my knowledge and capability to run a successful A/B test.
+
+---
+
+## Measure the impact of an experiment
+
