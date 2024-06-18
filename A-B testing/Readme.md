@@ -2,7 +2,10 @@
 
 In this depository, I provide some sample of running A/B test on variety of topics.
 
-## 10 steps of running an A/B test
+Here I provide a brief summary about A/B testing. On separate Jupiter notebooks in this depository, you could find statistical summary for A/B testing, including confidence interval, selecting sample size, different types of error, and different statistical inference methods.
+
+
+__10 steps of running an A/B test__
 1. define a goal and form the hyp.
 2. identify control and treatment groups
 3. identify metrics
@@ -13,7 +16,7 @@ In this depository, I provide some sample of running A/B test on variety of topi
 8. run an A/A test (dummy test) to identify any systematic bias
 
 References:
-- Practical A/B Testing 92023) by Leemay Nassery
+- Practical A/B Testing (2023) by Leemay Nassery
 - Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing (2020) by Ron Kohavi, Diane Tang, Ya Xu
 ---
 # A/B testing foundation
@@ -148,8 +151,17 @@ This test design involves holding back a small portion of users that will not ge
 
 One __drawback__ of this type of test, is its cost. Maintaining multiple versions of a product or feature, especially on a longer timeline, has a cost.
 
+---
 
-![image](https://github.com/Sean-Toroghi/portfolio/assets/50586266/f572841d-1f69-48e5-b6ea-d3d6d56687a7)
+## Summary 
+
+- Superiority tests should be used to determine the effect of a change in any direction from the control.
+- Non-inferiority tests enable you to conclude whether a change is no worse than what is already in place, the control experience.
+- Equivalence tests demonstrate whether the effect of a change is the same as the control.
+- Degradation and cumulative holdbacks demonstrate the effect features have on metrics that may take longer to measure, like retention or churn rate.
+
+The following tree-based framework provides a guideline for selecting an appropriate A/B testing.
+![image](https://github.com/Sean-Toroghi/portfolio/assets/50586266/f572841d-1f69-48e5-b6ea-d3d6d56687a7) Source: Practical A/B Testing (2023)
 
 
 
