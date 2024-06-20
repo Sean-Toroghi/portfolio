@@ -131,6 +131,52 @@ __Duration of each phase__: usually organizations start with running experiments
 - phase 3: 250
 - phase 4: thousands
 
+## Metrics
+
+Taxonomy of metrics:
+- goal (also called succes or true north) metrics: represent what the organization ultimately cares about
+- driver (also called sign post, surrogate, indirect, or predictive) metrics: are short term and fast-moving metrics with the goal of show what does it take for an organization to succeed.
+- guardrail metrics: come in two forms, 1- those that are set to protect the organization, and 2- those that are for assessing the trustworthiness of experiments and internal validity of results.
+
+A general guideline for dening a metricL. Metrics need to be:
+- measurable
+- attributable
+- be sensitive and timely
+
+---
+
+# 3- complementrary techniques to controlled experiments
+
+Some of the complemetry techniques to A?B testing are
+- surveys
+- focus groups
+- user experience research
+- human evaluation and expert matter opinion
+- logs-based analysis
+- external data
+
+
+
+---
+
+# 4- methods for conducting and analysing an A/B test
+
+## statistics behind A/B test
+
+__Two sample t-test__
+
+This is the most common statistical significance tests for determining if there is a difference between treatment and control, and investigates the difference between means relative to the variance. The significance of difference is represented by p-value. T-test is based on assumption samples are i.i.d. (independent and identically distributed) and randomly selected from population. The null hypothesis indicates the two samples have same mean. 
+
+T-statistic is then computed as $T = \frac{\mu_1 - \mu_2}{\sqrt(\var(\mu_1 - \mu_2))}$
+## Triggering
+
+## Sample ratio mismatch and otherguard rails metrics
+
+## data leakage - inference btw variants
+
+
+
+
 
 
 
