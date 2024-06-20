@@ -167,7 +167,13 @@ __Two sample t-test__
 
 This is the most common statistical significance tests for determining if there is a difference between treatment and control, and investigates the difference between means relative to the variance. The significance of difference is represented by p-value. T-test is based on assumption samples are i.i.d. (independent and identically distributed) and randomly selected from population. The null hypothesis indicates the two samples have same mean. 
 
-T-statistic is then computed as $T = \frac{\mu_1 - \mu_2}{\sqrt(\var(\mu_1 - \mu_2))}$
+Compute T-statistic: $T = \frac{\mu_1 - \mu_2}{\sqrt{(var(\mu_1 - \mu_2))}}$ and because the two samples are independent: $(var(\mu_1 - \mu_2))=(var(\mu_1) - var(\mu_2))$
+
+__P-value and confidence interval__
+
+
+
+
 ## Triggering
 
 ## Sample ratio mismatch and otherguard rails metrics
