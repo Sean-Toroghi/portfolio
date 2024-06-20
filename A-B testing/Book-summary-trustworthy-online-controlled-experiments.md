@@ -90,8 +90,22 @@ __Novelty effect__: attraction to a new idea for a short period of time.
 
 __Segment differences__: Analyzing a metric by different segments can provide insights about the data. Some examples are: market or country, time or day and day of week, new or existing users, single or shared account, and so on.
 
+__Conditional average treatment effects (CATE)__
+
+CATE is a specific type of causal effect, in which the validity of the estimate is conditional on being part of a subgroup instead of the entire population under study. In particular, CATE refers to the difference in the expected value of the outcome variable between two groups of individuals who differ only in their treatment status, but are otherwise similar in terms of their observed characteristics or covariates. The conditional aspect of CATE refers to the fact that the treatment effect may vary across different subgroups of the population, depending on their covariate values.
+
+To estimate CATE, we can employ machine learning techniques such as regression or propensity score matching, to first relate the outcome variable to the predicted outcome to the treatment status and the covariates. Then compare the predicted outcome among treated and untreated groups within each subgroup defined by the covariates.
 
 
+__User migration__
+
+If users migrate from one segment to another segment, we need to employ non-segmented metric such as aggregate. In an ideal situation, segmenting needs to be done by values that are determined before conducting an experiment. This helps to avoid a treatment to cause users change segments.
+
+__Simpson's paradox__
+
+If an experiment is run for two or more period with different percentages assigned to the variants, then combining the result could result in directionally incorrect estimates of the treatment effects. More specifically, the results would show worse overall outcome when combining the periods, compare with each individual phases. This phenomenon is called Simpson's paradox. In mathematical term this could be represented as:
+
+$\frac{a}{b} < \frac {A}{B}$ and $\frac{c}{d} < \frac {C}{D}$, while $\frac{a+c}{b+d} > \frac {A+C}{B+D}$
 
 
 
