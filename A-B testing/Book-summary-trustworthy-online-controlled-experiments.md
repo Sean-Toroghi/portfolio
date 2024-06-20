@@ -107,6 +107,8 @@ If an experiment is run for two or more period with different percentages assign
 
 $\frac{a}{b} < \frac {A}{B}$ and $\frac{c}{d} < \frac {C}{D}$, while $\frac{a+c}{b+d} > \frac {A+C}{B+D}$
 
+Simpson's paradox simply arises from the fact when combining results of multiple unequal variants, we are applying a weight to each result, and the overal result is weighted average not simple average.
+
 
 
 
