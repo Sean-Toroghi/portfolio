@@ -60,6 +60,37 @@ After the sanity check, we either reject or fail to reject the null hypothesis.
 Finally based on the outcome of the experiment and considering other elements/factors such as tradeoff between different metrics, cost of a change, and potential consequences of making a wrong decision, we derive the final decision.
 
 
+## Common mistakes when analyzing the results
+
+__Some of the potential misinterepretation of statistical results:__
+- lack of statistical power
+- misinterpreting p-value
+- peeking at p-values
+- having multiple hypothesis tests
+- interpreting confidence interval
+
+
+__Some of threats internal validity:__
+
+Internal validity refers to  the correctness of the experimental results without attempting to generalize to other populations or time periods. Some of the threats to internal validy are:
+- violating SUTVA (experiment units do not interfere with each others)
+- supervision bias: users who have been active for a long time, introduces supervision bias
+- intention-to-treat
+- sample-ratio mismatch: a mismatch between the condition in which we run the test and what will be done in actual implementation
+
+__Some of the threats to external validity__
+
+External validity refers to the extent to which the results of a controlled experiment can be generalized along axes such as different populations and ove time.
+
+## Other considerations
+
+__Primary effect__: some users may resist to change for some time, and adapt to the new idea in slower pace.
+
+__Novelty effect__: attraction to a new idea for a short period of time.
+
+__Segment differences__: Analyzing a metric by different segments can provide insights about the data. Some examples are: market or country, time or day and day of week, new or existing users, single or shared account, and so on.
+
+
 
 
 
