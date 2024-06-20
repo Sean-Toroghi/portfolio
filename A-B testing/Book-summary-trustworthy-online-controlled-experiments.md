@@ -1,6 +1,6 @@
 This is a summary of the book: Trustworthy Online Controlled Experiments (A Practical Guide to A/B Testing) 2020 by Ron Kohavi, Microsoft, Diane Tang, Google, Ya Xu, LinkedIn
 
-# 1-
+# 1- preliminary and some initial considerations
 
 ## Why conducting A/B testing: correlations vs causality
 
@@ -108,6 +108,28 @@ If an experiment is run for two or more period with different percentages assign
 $\frac{a}{b} < \frac {A}{B}$ and $\frac{c}{d} < \frac {C}{D}$, while $\frac{a+c}{b+d} > \frac {A+C}{B+D}$
 
 Simpson's paradox simply arises from the fact when combining results of multiple unequal variants, we are applying a weight to each result, and the overal result is weighted average not simple average.
+
+---
+
+# 2- Building a platform for A/B testing
+
+## Experimentation maturity models
+Experimentation maturity models consist of phases we need to go through for an A/B experiment:
+
+- phase 1: crawl
+  At the first phase the goal is to build foundational prerequisites. This includes building instrumentation and basic capabilities to compute summary statistics needed for hypothesis testing. We then run few experiments. 
+- phase 2: walk
+  The second phase consists of defining standard metrics and running more experiments. We validate instrument, run A/A tests, and sample ratio mismatch (SRM) test.
+- phase 3: run
+  In this phase, we run experiments at scale. We also conduct tradeoff analysis between multiple metrics. The outcome of the results is then used to evaluate new features/services/changes.
+- phase 4: fly
+  This phase is more of monitoring, at which the feature teams without relying on data scientists continue running A/B experiments and record experiments. This enables them to learn from past experiments and share surprising results and best practices. The main goal is improvement.
+
+__Duration of each phase__: usually organizations start with running experiments once a month and increase it by four to five factors for each phase. A typical example of experiment count at each phase per year is: 
+- phase 1: 10
+- phase 2: 50
+- phase 3: 250
+- phase 4: thousands
 
 
 
