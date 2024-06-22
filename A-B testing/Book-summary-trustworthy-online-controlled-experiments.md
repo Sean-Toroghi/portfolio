@@ -171,7 +171,7 @@ Compute T-statistic: $T = \frac{\mu_1 - \mu_2}{\sqrt{(var(\mu_1 - \mu_2))}}$ and
 
 __P-value and confidence interval__
 
-
+__P-value__: the probability that null is true
 
 
 ## Triggering
