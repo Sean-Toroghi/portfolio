@@ -11,7 +11,7 @@ While A/B testing plays an important role across various induestries, it is a cr
 
 # Statitstical hypothesis testing
 
-Forming hypothesis requieres to define null and alternative hypothsis. The null hypothesis indicates the two groups are not statistically significant different. The alternative hypothsis indicates the two groups shows a statistially significant difference. 
+Forming hypothesis requieres to define null and alternative hypothsis. The null hypothesis indicates the two groups are not statistically significant different. The alternative hypothsis indicates the two groups shows a statistially significant difference. When p-value is smaller than a threshold (t-value larger than a threshold), we can then reject null hyp. in favor of alt. hyp., otherwise we fail to reject null hyp. 
 
 
 
@@ -21,7 +21,10 @@ There are several statistical test methods, each suitable for a specific configu
 __Parametric test__
 - T-test (student test) compares two averages and exmines if they are significantly different from each other. Two important statistics in t-test are t-value and p-value.
   - The t-value measures the degree of difference relative to the variation in the data. Larger t-value indicates more difference.
-  - The p-value measures the probability that the results would occur by chance. Smaller p-value indicates higher statistically significance difference is between two groups. 
+
+    
+  - The p-value measures the probability that the results would occur by chance. Smaller p-value indicates higher statistically significance difference is between two groups.
+    
   Two types of t-test:
   - paired t-test
   - independent t-test
