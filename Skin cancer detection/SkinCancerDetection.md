@@ -3,9 +3,12 @@
 __Table of content__
 - [Overview](#overview)
 - Approaches
-- Machine learning
-- Deep learning (computer vision)
-- Results and conclusion
+  - [Machine learning](#ml)
+  - [Deep learning (computer vision)](#dl)
+- [Final results](#results)
+- [Conclusion](#conclusion)
+
+---
 
 <h1><a id = 'overview'> Overview</a></h1>
 
@@ -15,45 +18,39 @@ Despite the potential of deep learning in skin cancer detection, emerging techno
 
 In this project, I develop two distinct approaches for skin cancer detection. The first approach utilizes computer vision models to analyze images of skin lesions. The second approach employs machine learning models to analyze a dataset comprising over 44 features related to skin lesions. By integrating these methods, I aim to enhance diagnostic accuracy and advance the capabilities of skin cancer detection.
 
-Machine learning (ensemble classification)
-Overview
-Explanatory data analysis
-Preprocessing and feature engineering
-Modeling
-Evaluation and results
-Overview
+---
+<h1><a id = 'ml'> Machine learning (ensemble classification)</a></h1>
 
+## Overview
 
+## Explanatory data analysis
 
-
-Explanatory data analysis
-
-Overview of the dataset: train dataset
+__Overview of the dataset: train dataset__
 
 Shape of the dataset: 400k samples, and 55 columns: 35 float, 18 object, and 2 int.
 while it does not contains any duplicates, some columns have missing values
 
+__Check distribution of numeric features__
 
-
-
-
-Check distribution of numeric features
-
-c
-
-Deep learning (computer vision)
-Explanatory data analysis
-Preprocessing and feature engineering
-Modeling
-Evaluation and results
+## Preprocessing and feature engineering
+## Modeling
+## Evaluation and results
 
 
 
 
 
+ 
 
+<h1><a id = 'dl'> Deep learning (computer vision)</a></h1>
+## Explanatory data analysis
+## Preprocessing and feature engineering
+## Modeling
+## Evaluation and results
 
-Final output - conclusion
+<h1><a id = 'results'>Final output</a></h1>
+
+<h1><a id = 'conclusion'>conclusion</a></h1>
 
 
 
