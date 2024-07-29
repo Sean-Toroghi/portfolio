@@ -7,7 +7,7 @@ __Table of content__
 - Deep learning (computer vision)
 - Results and conclusion
 
-<a id = 'overview'> Overview</a>
+<h1><a id = 'overview'> Overview</a></h1>
 
 Skin cancer is among the most prevalent cancers globally, with melanoma being the most lethal form. Early detection is essential for effective treatment and improved survival rates. Traditionally, skin cancer diagnosis relies on visual examination by dermatologists, followed by biopsy and histopathological analysis. However, these methods can be time-consuming, subjective, and dependent on the clinician’s expertise. Recently, deep learning—a branch of artificial intelligence (AI)—has emerged as a promising tool that could enhance or even surpass these traditional diagnostic techniques.
 
