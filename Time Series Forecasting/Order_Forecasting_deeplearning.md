@@ -19,17 +19,17 @@ In conclusion, the integration of sophisticated time series forecasting models r
 ## References
 
 - Bengio, Y., LeCun, Y., & Hinton, G. (2015). Deep learning. Nature, 521- (7553), 436-444.
-- Box, G. E. P., Jenkins, G. M., & Reinsel, G. C. (2015). Time Series - Analysis: Forecasting and Control. Wiley.
-- Chen, T., He, T., & Benesty, M. (2023). XGBoost: Extreme Gradient Boosting. - R package version 1.6.0.
-- Choi, H., Lee, J., & Kim, S. (2020). A comprehensive review on retail sales - forecasting models. Journal of Retailing and Consumer Services, 55, 102089.
-- Hyndman, R. J., & Athanasopoulos, G. (2018). Forecasting: Principles and - Practice. OTexts.
-- Kourentzes, N., Barrow, D., & Crone, S. F. (2014). Neural network ensemble - approaches for time series forecasting. European Journal of Operational - Research, 234(1), 123-134.
-- Liu, W., Zhang, Z., & Wei, X. (2022). Deep learning for time series - forecasting in retail. Journal of Computational Science, 62, 101715.
-- Makridakis, S., Spiliotis, E., & Assimakopoulos, V. (2018). The M4 - competition: Results, findings, conclusion and way forward. International - Journal of Forecasting, 34(4), 802-808.
-- Wang, H., Wu, D., & Zhang, L. (2019). Time series forecasting with deep - learning: A survey. IEEE Access, 7, 115452-115468.
-- Xia, Y., Wu, J., & Li, C. (2021). Forecasting sales and customer footfall - in retail stores using deep learning models. Computers & Industrial - Engineering, 152, 106991.
-- Zhang, G., Patuwo, B. E., & Hu, M. Y. (2018). Forecasting with artificial - neural networks: The state of the art. International Journal of - Forecasting, 14(1), 35-62.
-- Mitra, Arnab et al. “A Comparative Study of Demand Forecasting Models for a - Multi-Channel Retail Company: A Novel Hybrid Machine Learning Approach.” - Operations Research Forum vol. 3,4 (2022): 58. doi:10.1007/- s43069-022-00166-4
+- Box, G. E. P., Jenkins, G. M., & Reinsel, G. C. (2015). Time Series Analysis: Forecasting and Control. Wiley.
+- Chen, T., He, T., & Benesty, M. (2023). XGBoost: Extreme Gradient Boosting. R package version 1.6.0.
+- Choi, H., Lee, J., & Kim, S. (2020). A comprehensive review on retail sales forecasting models. Journal of Retailing and Consumer Services, 55, 102089.
+- Hyndman, R. J., & Athanasopoulos, G. (2018). Forecasting: Principles and Practice. OTexts.
+- Kourentzes, N., Barrow, D., & Crone, S. F. (2014). Neural network ensemble approaches for time series forecasting. European Journal of Operational Research, 234(1), 123-134.
+- Liu, W., Zhang, Z., & Wei, X. (2022). Deep learning for time series forecasting in retail. Journal of Computational Science, 62, 101715.
+- Makridakis, S., Spiliotis, E., & Assimakopoulos, V. (2018). The M4 competition: Results, findings, conclusion and way forward. International Journal of Forecasting, 34(4), 802-808.
+- Wang, H., Wu, D., & Zhang, L. (2019). Time series forecasting with deep learning: A survey. IEEE Access, 7, 115452-115468.
+- Xia, Y., Wu, J., & Li, C. (2021). Forecasting sales and customer footfall in retail stores using deep learning models. Computers & Industrial Engineering, 152, 106991.
+- Zhang, G., Patuwo, B. E., & Hu, M. Y. (2018). Forecasting with artificial neural networks: The state of the art. International Journal of Forecasting, 14(1), 35-62.
+- Mitra, Arnab et al. “A Comparative Study of Demand Forecasting Models for a  Multi-Channel Retail Company: A Novel Hybrid Machine Learning Approach.” Operations Research Forum vol. 3,4 (2022): 58. doi:10.1007/- s43069-022-00166-4
 
 
 
