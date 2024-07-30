@@ -1,5 +1,7 @@
 <h1>A comparative study of order forecasting models for a multi-channel retail company: a novel hybrid deep learning approach</h1>
+
 # Introduction
+
 The retail industry is a dynamic sector, where accurate forecasting of customer demand plays a crucial role in operational efficiency and financial performance. One of the key challenges faced by retail stores is the ability to predict sales and customer footfall accurately. Effective forecasting is vital for optimizing inventory levels, staffing, and supply chain operations, ultimately influencing customer satisfaction and profitability (Choi et al., 2020; Zhang et al., 2018). Traditional methods, while foundational, often struggle to adapt to the complex patterns and trends observed in retail environments (Makridakis et al., 2018).
 
 Time series forecasting has emerged as a critical tool for addressing these challenges. By leveraging historical sales data, time series models can provide insights into future customer demand, enabling retail stores to make informed decisions about stock replenishment and resource allocation (Hyndman & Athanasopoulos, 2018). Accurate forecasts can lead to more efficient inventory management, reduced stockouts, and better alignment between supply and demand (Kourentzes et al., 2014).
