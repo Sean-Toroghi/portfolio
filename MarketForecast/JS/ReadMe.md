@@ -8,7 +8,7 @@ This project is about forecast the future market given time series data set cons
 
 For both tracks (ML and DL), OOF KFold-cross-validation is employed to make prediction. Also several ensemble approaches are used to blend different methods into making stronger perdiction that could better generalize the prediction and be robust of noise.
 
-# Log - EEDA, preprocessing, feature engineering
+# Log - EDA, preprocessing, feature engineering
 
 # Log - machine learning track
 
